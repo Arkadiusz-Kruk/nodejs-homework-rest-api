@@ -34,7 +34,7 @@ const emailConfig = (email, verificationToken) => {
 	const body = mailGenerator.generate(emailBody(email, verificationToken));
 	return {
 		to: { email },
-		from: "bartlomiejpawelkita@gmail.com",
+		from: "arkkrak82@gmail.com",
 		subject: "Contacts App - Email verification",
 		html: body,
 	};
