@@ -59,7 +59,7 @@ a:hover { text-decoration:underline; }
   font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   font-size: 10px;
   color: #555;
-  background: green;
+  background: grey;
   padding: 4px 5px;
   border-radius: 3px;
   vertical-align: middle;
