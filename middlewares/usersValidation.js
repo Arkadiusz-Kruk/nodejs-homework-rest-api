@@ -48,3 +48,4 @@ module.exports.patchSubscription = (req, res, next) => {
 module.exports.verifyEmail = (req, res, next) => {
 	return validate(schemaVerifyEmail, req.body, next, res);
 };
+
