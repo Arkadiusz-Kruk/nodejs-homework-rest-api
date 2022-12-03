@@ -52,3 +52,4 @@ const sendEmail = (email, verificationToken) => {
 };
 
 module.exports = { sendEmail };
+
