@@ -57,3 +57,4 @@ module.exports.updateContact = (req, res, next) => {
 module.exports.updateStatusContact = (req, res, next) => {
 	return validate(schemaUpdateStatusContact, req.body, next, res);
 };
+
